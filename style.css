@@ -4,6 +4,10 @@
 }
 
 #game{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     width: 500px;
     height: 200px;
     border: 1px solid black;
@@ -16,7 +20,7 @@
     content: url(https://media0.giphy.com/media/j2l2crFmnSNvyxl6lg/giphy.gif);
 }
 .animate{
-    animation: jump 300ms ;
+    animation: jump 400ms ;
 }
 @keyframes jump{
     0%{top:100px;}
